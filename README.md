@@ -78,10 +78,12 @@ $ python send-json-to-collector.py
 - Go To Distributed Tracing
 
 
-<img width="1332" alt="Screenshot 2025-01-31 at 12 17 27 PM" src="https://github.com/user-attachments/assets/0c2905ae-94cd-4f6b-9e16-87a685eda1ea" />
-<img width="1332" alt="Screenshot 2025-01-31 at 12 17 19 PM" src="https://github.com/user-attachments/assets/36505408-cddd-4ce0-93cd-1c820dc32a15" />
-<img width="1332" alt="Screenshot 2025-01-31 at 12 16 57 PM" src="https://github.com/user-attachments/assets/0fc72840-c69d-49c8-bece-38f8911422e1" />
-<img width="1332" alt="Screenshot 2025-01-31 at 12 16 41 PM" src="https://github.com/user-attachments/assets/5735da9d-85b1-4d1f-afd8-622644f10ea5" />
+<img width="1332" alt="Screenshot 2025-01-31 at 12 34 43 PM" src="https://github.com/user-attachments/assets/550d818f-6036-44bc-9025-a4cd0b0a7cda" />
+<img width="1332" alt="Screenshot 2025-01-31 at 12 34 21 PM" src="https://github.com/user-attachments/assets/6285f606-1981-4f41-99db-c9cbe0978110" />
+<img width="1332" alt="Screenshot 2025-01-31 at 12 34 38 PM" src="https://github.com/user-attachments/assets/000ddf7b-fa9b-4adb-a4e3-4b7047f2d5ea" />
+<img width="1332" alt="Screenshot 2025-01-31 at 12 34 16 PM" src="https://github.com/user-attachments/assets/1c73369e-7c66-4bc6-b365-3f16b43bb422" />
+<img width="1332" alt="Screenshot 2025-01-31 at 12 34 06 PM" src="https://github.com/user-attachments/assets/57b48a91-c1d7-46c1-9f72-c11fdc162e50" />
+<img width="1332" alt="Screenshot 2025-01-31 at 12 33 31 PM" src="https://github.com/user-attachments/assets/4ad54c9d-97cd-47db-8e30-7a001e1a9e85" />
 
 
 
