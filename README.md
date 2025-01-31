@@ -78,4 +78,10 @@ $ python send-json-to-collector.py
 - Go To Distributed Tracing
 
 
+<img width="1332" alt="Screenshot 2025-01-31 at 12 17 27 PM" src="https://github.com/user-attachments/assets/0c2905ae-94cd-4f6b-9e16-87a685eda1ea" />
+<img width="1332" alt="Screenshot 2025-01-31 at 12 17 19 PM" src="https://github.com/user-attachments/assets/36505408-cddd-4ce0-93cd-1c820dc32a15" />
+<img width="1332" alt="Screenshot 2025-01-31 at 12 16 57 PM" src="https://github.com/user-attachments/assets/0fc72840-c69d-49c8-bece-38f8911422e1" />
+<img width="1332" alt="Screenshot 2025-01-31 at 12 16 41 PM" src="https://github.com/user-attachments/assets/5735da9d-85b1-4d1f-afd8-622644f10ea5" />
+
+
 
