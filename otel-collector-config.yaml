@@ -1,0 +1,27 @@
+receivers:
+  otlp:
+    protocols:
+      http: # Receive OTLP/HTTP data on port 4318
+        endpoint: "0.0.0.0:4318"
+      grpc: # Receive OTLP/gRPC data on port 4317
+        endpoint: "0.0.0.0:4317"
+  zipkin: # Receive Zipkin spans (optional)
+    endpoint: "0.0.0.0:9411"
+
+exporters:
+  otlphttp/dynatrace:
+    endpoint: "https://tgj31380.live.dynatrace.com/api/v2/otlp"
+    headers:
+      Authorization: "Api-Token dt0c01.OQGDZT2DKLQXL2PHKM2CZY5A.7YGCIAJTA4SCYWYYVLUQMLYKKOWEH3IHZATPCBZ3A63BPOKTMRY4H5G4FNFIP67P"
+
+processors:
+  batch: # Batch data before exporting
+    send_batch_size: 1000
+    timeout: 10s
+
+service:
+  pipelines:
+    traces:
+      receivers: [otlp, zipkin]
+      processors: [batch]
+      exporters: [otlphttp/dynatrace]
