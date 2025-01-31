@@ -10,9 +10,9 @@ receivers:
 
 exporters:
   otlphttp/dynatrace:
-    endpoint: "https://tgj31380.live.dynatrace.com/api/v2/otlp"
+    endpoint: "https://${DYNATRACE_ENV}.live.dynatrace.com/api/v2/otlp"
     headers:
-      Authorization: "Api-Token dt0c01.OQGDZT2DKLQXL2PHKM2CZY5A.7YGCIAJTA4SCYWYYVLUQMLYKKOWEH3IHZATPCBZ3A63BPOKTMRY4H5G4FNFIP67P"
+      Authorization: "Api-Token <token>"
 
 processors:
   batch: # Batch data before exporting

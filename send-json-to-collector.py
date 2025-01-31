@@ -19,17 +19,17 @@ def create_span():
                 },
                 "scopeSpans": [
                     {
-                        "scope": {"name": "test-2"},
+                        "scope": {"name": "test-3"},
                         "spans": [
                             {
                                 "traceId": trace_id,
                                 "spanId": span_id,
-                                "name": "yash-span2",
-                                "kind": 1,  # SpanKind.INTERNAL
+                                "name": "yash-span3",
+                                "kind": 2,  # SpanKind.INTERNAL
                                 "startTimeUnixNano": str(int(time.time() * 1e9)),
                                 "endTimeUnixNano": str(int((time.time() + 1) * 1e9)),  # 1s duration
                                 "attributes": [
-                                    {"key": "example.key", "value": {"stringValue": "value"}}
+                                    {"key": "test", "value": {"stringValue": "yash2"}}
                                 ],
                                 "events": [
                                     {
