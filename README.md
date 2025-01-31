@@ -1,6 +1,5 @@
 # Otel-Collector-Dynatrace
 
-## Setups
 
 ### 1. Create the OTel Collector Configuration File
 - Create the OTel Collector Configuration File
